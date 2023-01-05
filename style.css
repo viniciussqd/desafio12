@@ -1,0 +1,95 @@
+@charset "UTC-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url('fonts/PassionOne-Regular.ttf') format('truetype');
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'conteudo';
+    src: url('fonts/Jarble_ital.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > h1 {
+    font-family: 'titulo', sans-serif;
+    font-weight: normal;
+    font-size: 5em;
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font: normal bold 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+}
+
+main p {
+    line-height: 60px;
+    font-family: 'conteudo', sans-serif;
+    font-size: 2em;
+}
+
+.pconsec {
+    padding-bottom: 70px;
+}
+
+article {
+    padding: 10vh 0px;
+}
+
+.art {
+    padding-left: 20px;
+}
+
+.img {
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#artimg1 {
+    background-image: url('imagens/background001.jpg');
+}    
+
+#artimg2 {
+    background-image: url('imagens/background002.jpg');
+}
+
+.img > p {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    width: 400px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
